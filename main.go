@@ -58,8 +58,8 @@ func (h *NewsHandler) FetchNews() (string, error) {
 
 func main() {
 
-	os.Setenv("SLACK_BOT_TOKEN", "")
-	os.Setenv("SLACK_APP_TOKEN", "")
+	os.Setenv("SLACK_BOT_TOKEN", "xoxb-8386467779235-8372037795543-diru1VWGherlxhKGaDrlV8SG")
+	os.Setenv("SLACK_APP_TOKEN", "xapp-1-A08BF2GBNDS-8792063300209-2ae2fa82ad0de6e49b199894fb807b147726fe51b12066746b67ceecc6299e89")
 
 	bot := slacker.NewClient(os.Getenv("SLACK_BOT_TOKEN"), os.Getenv("SLACK_APP_TOKEN"))
 
